@@ -1,0 +1,30 @@
+.selectorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.optionTitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.storageOptionContainer {
+  display: flex;
+  gap: 1px;
+}
+
+.storageOption {
+  all: unset;
+  cursor: pointer;
+  padding: 24px;
+  outline: 1px solid #ccc;
+  min-width: 78px;
+  text-align: center;
+}
+
+.selectedOption {
+  outline: 1px solid #000;
+  z-index: 10;
+}

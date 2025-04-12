@@ -1,0 +1,6 @@
+.cartLink {
+  display: flex;
+  padding: 4px 0;
+  gap: 6px;
+  align-items: center;
+}

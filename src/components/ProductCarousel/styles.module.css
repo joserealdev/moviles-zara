@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.carousel {
+  width: 100%;
+  overflow-x: scroll;
+  padding: 1px;
+  margin-top: 40px;
+  display: flex;
+  gap: 1px;
+  padding-bottom: 40px;
+}
+
+/* Custom scrollbars are not supported on Firefox*/
+/* width */
+.carousel::-webkit-scrollbar {
+  height: 1px;
+}
+
+.carousel::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+.carousel::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}

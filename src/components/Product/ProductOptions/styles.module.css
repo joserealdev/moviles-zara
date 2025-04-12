@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  height: 630px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  object-fit: scale-down;
+}
+
+.optionsContainer {
+  align-self: center;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.name {
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.optionsSelectorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.addToCart {
+  all: unset;
+  cursor: pointer;
+  background-color: #1b1a18;
+  width: 100%;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.addToCart:disabled {
+  background-color: #f3f2f2;
+  color: #c2bfbc;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+  }
+
+  .imageContainer {
+    width: 100%;
+    min-height: 275px;
+  }
+}
