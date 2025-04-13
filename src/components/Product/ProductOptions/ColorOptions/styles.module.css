@@ -1,0 +1,40 @@
+.selectorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.optionTitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.colorOptionContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.colorOptionContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.colorOption {
+  all: unset;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  outline: 1px solid #ccc;
+  border: 1px solid #fff;
+}
+
+.selectedOption {
+  outline: 1px solid #000;
+  z-index: 10;
+}
+
+.selectedColorName {
+  font-size: 12px;
+  line-height: 14px;
+}
