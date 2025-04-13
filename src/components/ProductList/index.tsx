@@ -1,6 +1,6 @@
 "use client";
 
-import { useProductList } from "@/services/ProductsProvider";
+import { useProductList } from "@/providers/ProductsProvider";
 import ProductCard from "../ProductCard";
 import styles from "./styles.module.css";
 

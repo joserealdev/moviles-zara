@@ -1,4 +1,4 @@
-import { ProductProvider } from "@/services/ProductsProvider";
+import { ProductProvider } from "@/providers/ProductsProvider";
 import { getListProduct } from "@api/services/mobile";
 import ProductList from "@components/ProductList";
 import SearchBar from "@components/SearchBar";

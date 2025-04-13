@@ -1,7 +1,7 @@
 "use client";
 
 import CartProductCard from "@/components/cart-product-card";
-import { CartContext } from "@/services/CartProvider";
+import { CartContext } from "@/providers/CartProvider";
 import { CartProduct } from "@/types/cart";
 import clsx from "clsx";
 import Link from "next/link";

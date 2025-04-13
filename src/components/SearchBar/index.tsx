@@ -1,7 +1,7 @@
 "use client";
 
 import Close from "@/icons/Close";
-import { useProductList } from "@/services/ProductsProvider";
+import { useProductList } from "@/providers/ProductsProvider";
 import { useDebounce } from "@hooks/useDebounce";
 import { useCallback, useEffect, useState } from "react";
 import styles from "./styles.module.css";

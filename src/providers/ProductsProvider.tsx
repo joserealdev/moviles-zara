@@ -2,6 +2,7 @@
 
 import { getListProduct } from "@/api/services/mobile";
 import { ListProduct } from "@/types/product";
+import { removeDuplicates } from "@/utils/list-product";
 import {
   createContext,
   ReactNode,
@@ -17,18 +18,6 @@ interface ProductContextType {
 }
 
 const ProductContext = createContext<ProductContextType | undefined>(undefined);
-
-const removeDuplicates = (arr: ListProduct[]) => {
-  const uniqueIds = new Set();
-  return arr.filter((item) => {
-    if (uniqueIds.has(item.id)) {
-      return false;
-    } else {
-      uniqueIds.add(item.id);
-      return true;
-    }
-  });
-};
 
 interface ProductProviderProps {
   children: ReactNode;

@@ -1,7 +1,7 @@
 "use client";
 
 import Bag from "@/icons/Bag";
-import { CartContext } from "@/services/CartProvider";
+import { CartContext } from "@/providers/CartProvider";
 import Link from "next/link";
 import React, { useContext } from "react";
 import styles from "./styles.module.css";

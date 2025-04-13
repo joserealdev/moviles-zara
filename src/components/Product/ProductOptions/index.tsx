@@ -1,6 +1,6 @@
 "use client";
 
-import { CartContext } from "@/services/CartProvider";
+import { CartContext } from "@/providers/CartProvider";
 import { CartProduct } from "@/types/cart";
 import { ColorOption, Product, StorageOption } from "@/types/product";
 import Image from "next/image";
